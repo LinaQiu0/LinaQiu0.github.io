@@ -1,0 +1,101 @@
+#canvas {
+  border: 4px solid lightgrey;
+  border-radius: 5px;
+  margin: 80px;
+  padding: 10px;
+}
+
+div.logo {
+  text-align: center;
+  font-size: 80%;
+}
+
+h1 {
+  letter-spacing: 0.115385em;
+}
+
+ul.navList {
+  list-style: none;
+  max-width: 80%;
+  margin: 0 auto;
+}
+
+li.pageCollection {
+  display: inline-block;
+}
+
+li > a {
+  margin-left: 8px;
+  padding: 5px 60px;
+  font-family: courier;
+  font-size: 1.4em;
+  text-align: center;
+  color: grey;
+}
+
+.nav:hover {
+    color: black;
+    opacity: 0.9;
+}
+
+div.email {
+  width: 63%;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+h2 {
+    font-family: Varela Round,arial,sans-serif;
+    font-size: 20px;
+    line-height: 1.2em;
+    letter-spacing: 3px;
+}
+
+#emailInfo {
+  font-size: 20px;
+}
+
+p > a {
+  color: #517a9e;
+}
+
+div.footer {
+  width: 80%;
+  margin: 110px auto;
+  padding-top: 30px;
+  border-top: 3px solid lightgrey;
+  border-bottom: 3px solid lightgrey;
+}
+
+.fa {
+  padding: 15px;
+  font-size: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-github {
+  background: black;
+  color: white;
+}
