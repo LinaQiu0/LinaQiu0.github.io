@@ -17,15 +17,17 @@ h1 {
 
 ul.navList {
   list-style: none;
-  width: 80%;
+  max-width: 80%;
   margin: 0 auto;
 }
 
 li.pageCollection {
   display: inline-block;
 }
+
 li > a {
-  padding: 5px 45px;
+  margin-left: 8px;
+  padding: 5px 60px;
   font-family: courier;
   font-size: 1.4em;
   text-align: center;
