@@ -51,21 +51,6 @@ p.tobeContinued {
   letter-spacing: 0.10em;
 }
 
-h2 {
-    font-family: Varela Round,arial,sans-serif;
-    font-size: 20px;
-    line-height: 1.2em;
-    letter-spacing: 3px;
-}
-
-#emailInfo {
-  font-size: 20px;
-}
-
-p > a {
-  color: #517a9e;
-}
-
 div.footer {
   width: 80%;
   margin: 110px auto;
