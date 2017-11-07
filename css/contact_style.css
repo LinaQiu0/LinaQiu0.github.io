@@ -1,8 +1,61 @@
-#canvas {
-  border: 4px solid lightgrey;
-  border-radius: 5px;
-  margin: 80px;
-  padding: 10px;
+@media all and (min-width: 700px){
+  div.nav {display: block;}
+
+  #mobileNav {display: none;}
+
+  #mobileMenu {display: none;}
+
+  #canvas {
+    border: 4px solid lightgrey;
+    border-radius: 5px;
+    margin: 80px;
+    padding: 10px;
+  }
+
+}
+
+@media all and (max-width: 700px) {
+  div.navi {display: none;}
+
+  #mobileNav {display: none;}
+
+  #mobileMenu {display: block;}
+
+  #canvas {
+    border: 4px solid lightgrey;
+    border-radius: 5px;
+    margin: 45px;
+    padding: 5px;
+  }
+
+}
+#mobileNav .wrapper {
+    padding: 1em 0;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+}
+
+nav ul li {
+  text-align: center;
+  float: none;
+  margin-left: 0;
+  margin-right: 60px;
+}
+
+#mobileMenu {
+    margin: 0;
+    font-family: courier;
+    font-size: 1.1em;
+    line-height: 1.6em;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-style: normal;
+    padding: 0 0 10px;
+    text-align: center;
+    border-bottom-style: solid;
+    border-bottom-color: #ddd;
+    visibility: visible;
+    list-style: none;
 }
 
 div.logo {
@@ -14,7 +67,7 @@ h1 {
   letter-spacing: 0.115385em;
 }
 
-ul.navList {
+ul {
   list-style: none;
   max-width: 80%;
   margin: 0 auto;

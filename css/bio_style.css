@@ -93,27 +93,15 @@ li > a {
   text-decoration: underline;
 }
 
-div.imgblock {
-  max-width: 90%;
-  margin: 0 auto;
-}
-
-#selfImage {
-  width: 67%;
-  height:auto;
-  display: block;
-  margin: 0 auto;
-  padding-top: 50px;
-  padding-right: 25px;
-}
-
-div.intro {
+div.notFinished {
   width: 63%;
   margin: 0 auto;
-  padding-top: 35px;
+  padding-top: 50px;
 }
-p.homeIntro {
-  font-size: 1.3em;
+
+p.tobeContinued {
+  font-size: 1.4em;
+  letter-spacing: 0.10em;
 }
 
 div.footer {
