@@ -11,19 +11,17 @@
     <link rel="stylesheet" type="text/css" href="css/homepage_style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
-<body>
+<body onresize="hide()">
   <script src="DynamicMenu.js"></script>
   <div id="canvas">
     <div id="mobileNav">
       <div class="wrapper">
-        <nav class="mobnav">
           <ul>
-            <li><a href="https://linaqiu0.github.io" class="nav nav-home" target="_self">Home</a></li>
-            <li><a href="https://linaqiu0.github.io/bio" class="nav nav-bio" target="_self">Bio</a></li>
+            <li><a href="https://linaqiu0.github.io" class="nav nav-home" target="_blank">Home</a></li>
+            <!-- <li><a href="https://linaqiu0.github.io/bio" class="nav nav-bio" target="_self">Bio</a></li> -->
             <li><a href="Resume_basic.pdf" class="nav nav-resume" target="_blank">Resume</a></li>
             <li><a href="https://linaqiu0.github.io/contact" class="nav nav-contact" target="_self">Contact</a></li>
           </ul>
-        </nav>
       </div>
     </div>
     <div id="mobileMenu">
@@ -36,14 +34,13 @@
         </h1>
       </div>
       <div class="navi" data-content-field="navigation">
-        <nav>
           <ul class="navList">
             <li class="pageCollection">
-              <a href="https://linaqiu0.github.io" class="nav nav-home" target="_self">Home</a>
+              <a href="https://linaqiu0.github.io" class="nav nav-home" target="_blank">Home</a>
             </li>
-            <li class="pageCollection">
-              <a href="https://linaqiu0.github.io/bio" class="nav nav-bio" target="_self">Bio</a>
-            </li>
+            <!-- <li class="pageCollection"> -->
+              <!-- <a href="https://linaqiu0.github.io/bio" class="nav nav-bio" target="_self">Bio</a> -->
+            <!-- </li> -->
             <li class="pageCollection">
               <a href="Resume_basic.pdf" class="nav nav-resume" target="_blank">Resume</a>
             </li>
@@ -51,29 +48,31 @@
               <a href="https://linaqiu0.github.io/contact" class="nav nav-contact" target="_self">Contact</a>
             </li>
           </ul>
-        </nav>
       </div>
     </header>
     <section class="clear" data-content-field="main-content">
-      <div class="imgblock">
-        <img id="selfImage" src="css/IMG_3057.JPG">
-        </img>
-      </div>
+      <!-- <div class="imgblock"> -->
+        <!-- <img id="selfImage" src="css/avatar.JPG"> -->
+        <!-- </img> -->
+      <!-- </div> -->
       <div class="intro">
-        <p class="homeIntro">
-          Lina Qiu is a MS student majoring in Computer Science at New York University.
-          Prior to joining NYU, she has studied at South China University of Technology for two years
-          and then continued her BEng degree at The University of Edinburgh.
-          For more information about her education experience, please visit her
-          <a herf="/Bio">Bio</a>
-          .
+        <img id="selfImage" src="css/avatar.JPG" onresize="align()">
+        <p class="homeIntro" id="homeIntro">
+          Lina Qiu is a PhD student at the <a href="https://www.bu.edu/cs/" style="color:red;">Computer Science Department</a>
+          at Boston University. She is currently working in <a href="https://midas.bu.edu" style="color:red;">MiDAS Group</a> with
+          <a href="http://manos.athanassoulis.net" style="color:red;">Prof. Manos Athanassoulis</a>. Before joining BU, she received her MS from NYU. During her time in NYU, she was advised by Prof. Yong Liu and Prof. Torsten Suel.
         </p>
-        <p class="homeIntro">
-          She has developed a vast variety of interests on Computer Science,
-          such as security, database, algorithms, networking, and machine learning.
-          On each subfield, she has done some exploration,
-          and now decide to take computer security as her main research area.
-        </p>
+      </div>
+      <!-- <div class="broader">
+        <p></p>
+      </div> -->
+      <div class="researchInterests" align="right">
+        <pre class="interests">Research Interests:    </pre>
+          <ul>
+            <pre>       Data Systems</pre>
+            <pre>       Data Mining</pre>
+            <pre>       Information Retrieval</pre>
+          </ul>
       </div>
     </section>
     <div class="footer" data-content-field="navigation" align="right">
