@@ -41,7 +41,7 @@ function size() {
 
 function resize() {
   var width = window.innerWidth;
-  var gap = width / 15;
+  var gap = width / 11;
   if(document.getElementById("mobileNav").style.display === "block" ) {
     document.getElementById("mobileNav").style.display = "none";
   }
