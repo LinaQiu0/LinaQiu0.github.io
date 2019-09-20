@@ -168,14 +168,14 @@ div.email {
   padding-top: 35px;
 }
 
-footer {
+/* footer {
   position: fixed;
   bottom: 0;
   width: 100%;
-}
+} */
 
 div.footer {
-  width: 80%;
+  width: 100%;
   margin: 110px auto;
   padding-top: 30px;
   /* border-top: 3px solid lightgrey; */
