@@ -136,27 +136,31 @@ p.homeIntro {
   font-size: 1.3em;
   padding-top: 35px;
 }
-/* div.broader {
-  width: 60%
-  margin: 0 auto;
-  border-bottom: 3px solid lightgrey;
-} */
-div.researchInterests {
+div.broader {
   border-top: 3px solid lightgrey;
+  width: 100%
+  /* margin: 160px 0px 100px 0px; */
+  /* margin: 0 auto; */
+  /* border-bottom: 3px solid lightgrey; */
+}
+div.researchInterests {
+  /* border-top: 3px solid lightgrey; */
   /* border-left: 3px solid lightgrey; */
   /* border-right: 3px solid lightgrey; */
-  width: 80%;
+  width: 63%;
   margin: 0 auto;
-  /* margin: 0px 10px 0px 0px; */
-  padding-top: 35px;
+  /* margin: 50px 0px 0px 0px; */
+  padding-top: 80px;
   font-size: 1.2em;
   color: grey;
-  text-align: left;
+  /* text-align: middle; */
 }
-pre.interests{
+h.interests{
   font-size: 1.2em;
 }
-
+pre {
+  font-size: 1.1em;
+}
 div.email {
   width: 63%;
   margin: 0 auto;
@@ -176,8 +180,8 @@ div.email {
 
 div.footer {
   width: 100%;
-  margin: 110px auto;
-  padding-top: 30px;
+  margin: 30px auto;
+  padding-top: 20px;
   /* border-top: 3px solid lightgrey; */
   border-bottom: 3px solid lightgrey;
 }
