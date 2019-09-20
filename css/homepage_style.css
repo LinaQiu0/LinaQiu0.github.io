@@ -149,20 +149,36 @@ div.researchInterests {
   margin: 0 auto;
   /* margin: 0px 10px 0px 0px; */
   padding-top: 35px;
-  font-size: 1.1em;
+  font-size: 1.2em;
   color: grey;
   text-align: left;
 }
 pre.interests{
-  /* text-align: left; */
   font-size: 1.2em;
-  /* color: grey; */
 }
+
+div.email {
+  width: 63%;
+  margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+#emailInfo{
+  font-size: 1.4em;
+  padding-top: 35px;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
 div.footer {
   width: 80%;
   margin: 110px auto;
   padding-top: 30px;
-  border-top: 3px solid lightgrey;
+  /* border-top: 3px solid lightgrey; */
   border-bottom: 3px solid lightgrey;
 }
 
