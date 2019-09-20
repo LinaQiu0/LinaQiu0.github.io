@@ -22,7 +22,7 @@ function displayDropDownList() {
 }
 
 function size() {
-  if (window.innerWidth >= 900) {
+  if (window.innerWidth >= 1000) {
     document.getElementById("selfImage").align = "left";
     document.getElementById("selfImage").style.width = "300px";
     document.getElementById("selfImage").style.margin = "0px 50px 700px -50px";
@@ -40,14 +40,18 @@ function size() {
 }
 
 function resize() {
+  var width = window.innerWidth;
+  var gap = width / 15;
   if(document.getElementById("mobileNav").style.display === "block" ) {
     document.getElementById("mobileNav").style.display = "none";
   }
-  if (window.innerWidth >= 900) {
+  if (window.innerWidth >= 1000) {
     document.getElementById("selfImage").align = "left";
     document.getElementById("selfImage").style.width = "300px";
-    document.getElementById("selfImage").style.margin = "0px 50px 700px -50px";
-    document.getElementById("homeIntro").style.margin = "0px 0px 70px 0px";
+    document.getElementById("selfImage").style.marginRight = "50px"
+    document.getElementById("selfImage").style.marginBottom = gap + "px";
+    document.getElementById("selfImage").style.marginLeft = "-50px";
+    document.getElementById("homeIntro").style.marginBottom = gap + "px";
     // document.getElementById("researchInterests").style.margin = "0px 0px 0px 0px";
   }
   else {
